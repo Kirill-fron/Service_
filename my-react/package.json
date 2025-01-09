@@ -1,5 +1,5 @@
 {
-  "name": "my-react",
+  "name": "@service_/my-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,10 @@
     "prettify": "prettier --loglevel warn --cache --write '{src/**/*.{js,jsx,ts,tsx,json,css,scss}' '!**/{node_modules, dist}/**/*'"
   },
   "dependencies": {
+    "@service_/backend": "workspace:*",
+    "@tanstack/react-query": "^5.63.0",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
     "prettier": "^3.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
