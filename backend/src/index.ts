@@ -17,5 +17,3 @@ expressApp.listen(3000, () => {
   console.log('Example app  http://localhost:3000')
 })
 
-
-export type TrpcRouter = typeof trpcRouter

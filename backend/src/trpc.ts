@@ -30,3 +30,6 @@ export const trpcRouter = trpc.router({
     return { ideas }
   }),
 })
+
+
+export type TrpcRouter = typeof trpcRouter
